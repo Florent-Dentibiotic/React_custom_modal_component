@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Modal } from './lib';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Publish npm package component with this boilerplate</h1>
+      <Modal 
+          backgroundAction={''}
+          modalStyle={
+              'p-9 border-4 flex flex-col justify-center items-center border-green-900 border-opacity-70 bg-white rounded overflow-hidden bg-scroll'
+          }
+          content={'Hello World !'}
+          contentStyle={'m-5'}
+          buttonStyle={
+              'w-24 p-2 opacity-80 hover:opacity-100 rounded px-5 bg-green-900 text-white'
+          }
+          buttonAction={''}/>
+    </>
   );
 }
 

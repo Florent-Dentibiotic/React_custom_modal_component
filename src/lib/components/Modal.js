@@ -1,4 +1,5 @@
 import './modal.css';
+import React from 'react';
 
 export default function Modal({
     backgroundAction,
@@ -12,7 +13,7 @@ export default function Modal({
         <>
             <div className="custom__modal" onClick={backgroundAction}>
                 <div className={modalStyle}>
-                    <p className={contentStyle}>{content}</p>
+                    <div className={contentStyle}>{content}</div>
                     <button className={buttonStyle} onClick={buttonAction}>
                         Close
                     </button>

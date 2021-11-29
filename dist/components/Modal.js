@@ -7,6 +7,10 @@ exports.default = Modal;
 
 require("./modal.css");
 
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function Modal(_ref) {
   let {
     backgroundAction,
@@ -16,14 +20,14 @@ function Modal(_ref) {
     buttonStyle,
     buttonAction
   } = _ref;
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "custom__modal",
     onClick: backgroundAction
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: modalStyle
-  }, /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: contentStyle
-  }, content), /*#__PURE__*/React.createElement("button", {
+  }, content), /*#__PURE__*/_react.default.createElement("button", {
     className: buttonStyle,
     onClick: buttonAction
   }, "Close"))));
