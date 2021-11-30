@@ -30,6 +30,7 @@ Then you can use and customize the component :
 
 ```
 <Modal 
+    zindex={}
     backgroundAction={}
     modalStyle={}
     content={}
@@ -38,6 +39,14 @@ Then you can use and customize the component :
     buttonAction={}
 />
 ```
+
+### z-index :
+
+You can access the background className with props :
+
+`zindex={z-10}`
+
+You can use the default value : 'z-10' witch means in css 'z-index: 10;'
 
 ### background eventListener :
 
@@ -93,6 +102,7 @@ And to hide your modal on background or button click :
 ```
 {modal && (
     <Modal
+        zindex={z-10}
         backgroundAction={handleClick}
         modalStyle={custom-modal-style}
         content={modalContent}
