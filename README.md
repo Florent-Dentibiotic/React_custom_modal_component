@@ -70,7 +70,9 @@ To show or hide your modal window i can recommand this method. Adding in your pa
 const [modal, setModal] = useState(false);
 const [modalContent, setModalContent] = useState('');
 
-const handleClick = () => {setModal(false);};
+const handleClick = () => {
+    setModal(false);
+    };
 ```
 
 And to hide your modal on background or button click :
@@ -84,5 +86,5 @@ And to hide your modal on background or button click :
         buttonStyle={custom-button-style}
         buttonAction={handleClick}
         />
-)}
+    )}
 ```
