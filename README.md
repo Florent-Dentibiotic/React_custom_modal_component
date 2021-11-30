@@ -12,7 +12,13 @@ You can install dentibiotics_modal with npm:
 
 ## How to
 
-You can customize :
+Firstly you need to import the Modal like that :
+
+```
+import { Modal } from 'dentibiotics_modal';
+```
+
+Then you can customize :
 
 ```
 <Modal 
