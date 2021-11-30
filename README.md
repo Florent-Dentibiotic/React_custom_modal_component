@@ -18,7 +18,7 @@ Firstly you need to import the Modal like that :
 import { Modal } from 'dentibiotics_modal';
 ```
 
-Then you can customize :
+Then you can use and customize the component :
 
 ```
 <Modal 
