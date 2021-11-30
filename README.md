@@ -14,14 +14,16 @@ You can install dentibiotics_modal with npm:
 
 You can customize :
 
-```<Modal 
+```
+<Modal 
     backgroundAction={}
     modalStyle={}
     content={}
     contentStyle={}
     buttonStyle={}
     buttonAction={}
-/>```
+/>
+```
 
 ### background eventListener :
 
@@ -57,20 +59,25 @@ And finally the button action
 ## More informations 
 
 To show or hide your modal window i can recommand this method. Adding in your parent component this :
-```const [modal, setModal] = useState(false);
+
+```
+const [modal, setModal] = useState(false);
 const [modalContent, setModalContent] = useState('');
 const handleClick = () => {
         setModal(false);
-    };```
+    };
+```
 
 And to hide your modal on background or button click :
-```{modal && (
-                <Modal
-                    backgroundAction={handleClick}
-                    modalStyle={custom-modal-style}
-                    content={modalContent}
-                    contentStyle={custom-content-style}
-                    buttonStyle={custom-button-style}
-                    buttonAction={handleClick}
-                />
-            )}```
+```
+{modal && (
+    <Modal
+        backgroundAction={handleClick}
+        modalStyle={custom-modal-style}
+        content={modalContent}
+        contentStyle={custom-content-style}
+        buttonStyle={custom-button-style}
+        buttonAction={handleClick}
+        />
+)}
+```
