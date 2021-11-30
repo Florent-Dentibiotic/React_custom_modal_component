@@ -13,6 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Modal(_ref) {
   let {
+    zindex,
     backgroundAction,
     modalStyle,
     content,
@@ -21,7 +22,7 @@ function Modal(_ref) {
     buttonAction
   } = _ref;
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
-    className: "custom__modal",
+    className: "".concat(zindex, " custom__modal"),
     onClick: backgroundAction
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: modalStyle

@@ -12,7 +12,6 @@ Original jQuery modal on gitHub :
 My React component :
 [npm](https://www.npmjs.com/package/dentibiotics_modal)
 
-
 ## Installation
 
 You can install dentibiotics_modal with npm:

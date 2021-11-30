@@ -2,6 +2,7 @@ import './modal.css';
 import React from 'react';
 
 export default function Modal({
+    zindex,
     backgroundAction,
     modalStyle,
     content,
@@ -11,7 +12,7 @@ export default function Modal({
 }) {
     return (
         <>
-            <div className="custom__modal" onClick={backgroundAction}>
+            <div className={`${zindex} custom__modal`} onClick={backgroundAction}>
                 <div className={modalStyle}>
                     <div className={contentStyle}>{content}</div>
                     <button className={buttonStyle} onClick={buttonAction}>
