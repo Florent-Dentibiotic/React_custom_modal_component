@@ -4,9 +4,9 @@ dentibiotics_modal is a quite simple modal, with content box and button.
 By default the modal window is screen's centered horizontaly and verticaly.
 It's really easy to customize it with all sorts of props.
 
-## Link to npm repo :
+## Link to jQuery and npm repo :
 
-Original JQuery modal on gitHub :
+Original jQuery modal on gitHub :
 [jQuery](https://github.com/kylefox/jquery-modal)
 
 My React component :
