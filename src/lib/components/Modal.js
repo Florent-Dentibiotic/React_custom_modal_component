@@ -2,7 +2,7 @@ import './modal.css';
 import React from 'react';
 
 export default function Modal({
-    zindex,
+    zindex='z-10',
     backgroundAction,
     modalStyle,
     content,

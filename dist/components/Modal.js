@@ -13,7 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Modal(_ref) {
   let {
-    zindex,
+    zindex = 'z-10',
     backgroundAction,
     modalStyle,
     content,

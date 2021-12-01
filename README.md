@@ -46,7 +46,7 @@ You can access the background className with props :
 
 `zindex={z-10}`
 
-You can use the default value : 'z-10' witch means in css 'z-index: 10;'
+Default value is 'z-index: 10;'
 
 ### background eventListener :
 

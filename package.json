@@ -3,7 +3,7 @@
   "description": "a modal from p14 openclassroom's project",
   "author": "FlorentM",
   "keywords": ["modal", "customisable", "simple"],
-  "version": "0.1.9",
+  "version": "0.1.11",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
