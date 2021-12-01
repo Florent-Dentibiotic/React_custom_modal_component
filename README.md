@@ -16,7 +16,9 @@ My React component :
 
 You can install dentibiotics_modal with npm:
 
-`npm install dentibiotics_modal`
+```
+npm install dentibiotics_modal
+```
 
 ## How to
 
