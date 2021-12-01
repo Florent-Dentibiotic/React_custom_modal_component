@@ -104,7 +104,6 @@ And to hide your modal on background or button click :
 ```
 {modal && (
     <Modal
-        zindex={z-10}
         backgroundAction={handleClick}
         modalStyle={custom-modal-style}
         content={modalContent}
