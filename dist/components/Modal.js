@@ -19,7 +19,8 @@ function Modal(_ref) {
     content,
     contentStyle,
     buttonStyle,
-    buttonAction
+    buttonAction,
+    buttonContent = 'Close'
   } = _ref;
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "".concat(zindex, " custom__modal"),
@@ -31,5 +32,5 @@ function Modal(_ref) {
   }, content), /*#__PURE__*/_react.default.createElement("button", {
     className: buttonStyle,
     onClick: buttonAction
-  }, "Close"))));
+  }, buttonContent))));
 }

@@ -9,7 +9,7 @@ export default function Modal({
     contentStyle,
     buttonStyle,
     buttonAction,
-    buttonContent,
+    buttonContent='Close',
 }) {
     return (
         <>

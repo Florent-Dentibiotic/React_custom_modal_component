@@ -83,9 +83,17 @@ The button is fully customizable with this className's props :
 
 ### button eventListener :
 
-And finally the button action
+You can add an action on the button
 
 `buttonAction={}`
+
+### button text content :
+
+And finally the button text
+
+`buttonContent={}`
+
+It's an optional props, default value is 'Close'
 
 ## More informations 
 
