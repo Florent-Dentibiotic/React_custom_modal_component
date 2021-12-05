@@ -9,6 +9,7 @@ export default function Modal({
     contentStyle,
     buttonStyle,
     buttonAction,
+    buttonContent,
 }) {
     return (
         <>
@@ -16,7 +17,7 @@ export default function Modal({
                 <div className={modalStyle}>
                     <div className={contentStyle}>{content}</div>
                     <button className={buttonStyle} onClick={buttonAction}>
-                        Close
+                        {buttonContent}
                     </button>
                 </div>
             </div>

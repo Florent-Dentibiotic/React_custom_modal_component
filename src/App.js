@@ -15,7 +15,8 @@ function App() {
           buttonStyle={
               'w-24 p-2 opacity-80 hover:opacity-100 rounded px-5 bg-green-900 text-white'
           }
-          buttonAction={''}/>
+          buttonAction={''}
+          buttonContent={'Close'} />
     </>
   );
 }
